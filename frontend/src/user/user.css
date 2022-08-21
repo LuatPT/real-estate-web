@@ -1,0 +1,48 @@
+.copy_right {
+    color: inherit;
+    text-align: center;
+    margin-top: 40px !important;
+  }
+
+.link {
+    color: inherit !important;
+}
+
+.signup_box{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.login_box{
+    margin: 64px 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_signup{
+    margin: 8px;
+    background-color: #9c27b0 !important;
+}
+
+.checkbox_user{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.button_user{
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+}
+
+.form_user_box{
+    margin-top: 24px !important;
+}
+
+.grid_image_login{
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
