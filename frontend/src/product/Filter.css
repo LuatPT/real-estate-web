@@ -1,0 +1,141 @@
+.filter-panel{
+  opacity: 1;
+  min-width: 1280px;
+  min-height: 500px;
+  background-image: url('https://bizweb.dktcdn.net/100/393/384/themes/871144/assets/slider_1.jpg?1659414408430');
+}
+/* Header */
+.filter-panel-header{
+}
+
+.filter-panel-header > p{
+  font-size: 24px;
+  font-family: 'FontMuli';
+  color: #fff;
+  font-weight: 900;
+  padding: 3%;
+  text-transform: uppercase;
+  width: 90%;
+  text-align: center;
+}
+/* Body */
+.filter-panel-body{
+}
+
+.filter-box{
+  margin: 0px 0 25px;
+  position: relative;
+  width: 100%;
+}
+
+.filter-tab{
+  height: 45px;
+  margin-top: 50px;
+}
+
+.filter-tab>span{
+  display: inline-block;
+  line-height: 45px;
+  padding: 0 30px;
+  margin: 0 3px;
+  overflow: hidden;
+  font-family: 'FontMuli';
+  font-size: 15px;
+  color: #fff;
+  position: relative;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  cursor: pointer;
+  
+}
+
+.filter-tab span:hover:before, .filter-tab span.active:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #556d92;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.filter-group{ 
+  opacity: 1;
+  margin-left: 20px;
+  background-color: #556d92;
+  width: 100%;
+  padding: 20px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.filter-base{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.filter-base-1{
+  width: 299px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.filter-base-1>select{
+  height: 50px;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #343e44;
+  font-family: 'FontMuli';
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-color: #fff !important;
+  padding-right: 28px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 0 110px 0 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.filter-base-1>select>option{
+  color: #000;
+  background-color: #fff;
+}
+
+.filter-base-2{
+  width: calc(100% - 407px);
+  display: inline-block;
+  float: left;
+}
+
+.filter-search-form{
+  display: inline-block;
+  float: left;
+  width: calc(100% - 260px);
+  margin-right: 10px;
+}
+
+.filter-search-form>input{
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+  color: #343e44;
+  font-family: 'FontMuli';
+  padding: 0 20px;
+}
