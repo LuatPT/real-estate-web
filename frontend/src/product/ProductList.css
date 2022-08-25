@@ -1,0 +1,103 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: static;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.productListSwipe {
+  padding-top: 20px !important;
+}
+.productListSwipe .swiper-button-prev {
+  top: 24px;
+  left: 5px;
+  max-height: 20px;
+}
+.productListSwipe .swiper-button-next {
+  top: 24px;
+  left: 35px;
+  max-height: 20px !important;
+}
+.productListSwipe .swiper-button-prev:hover,
+.productListSwipe .swiper-button-next:hover {
+  background: #3f7df6;
+  color: #ffff;
+}
+
+.productListSwipe .swiper-button-next:after,
+.productListSwipe .swiper-button-prev:after {
+  font-size: 10px !important;
+}
+
+.productListSwipe .productLb,
+.hotProductListSwipe .productLb {
+  position: absolute;
+  top: 15px;
+  font-size: 13px;
+  line-height: 25px;
+  height: 25px;
+  padding: 0 10px;
+  border-radius: 3px;
+  z-index: 6;
+}
+
+.rentLb {
+  background: #3f7df6;
+  left: 15px;
+}
+
+.favoriteLb {
+  background: #ff4a26;
+  right: 15px;
+}
+
+.hotProductListSwipe .swiper-button-prev {
+  top: 100%;
+  left: 50%;
+  max-height: 20px !important;
+}
+.hotProductListSwipe .swiper-button-next {
+  top: 100%;
+  left: calc(50% + 30px);
+  max-height: 20px;
+}
+.hotProductListSwipe .swiper-button-prev:hover,
+.hotProductListSwipe .swiper-button-next:hover {
+  background: #3f7df6;
+  color: #ffff;
+}
+
+.hotProductListSwipe .swiper-button-next:after,
+.hotProductListSwipe .swiper-button-prev:after {
+  font-size: 10px !important;
+}
+
+.innerSwipe .swiper-button-prev,
+.innerSwipe .swiper-button-next {
+  display: none;
+}

@@ -1,0 +1,20 @@
+.brandSwipe .swiper-button-prev {
+  top: 0;
+  left: 5px;
+  max-height: 20px;
+}
+.brandSwipe .swiper-button-next {
+  top: 0;
+  left: 35px;
+  max-height: 20px;
+}
+.brandSwipe .swiper-button-prev:hover,
+.brandSwipe .swiper-button-next:hover {
+  background: #3f7df6;
+  color: #ffff;
+}
+
+.productLbrandSwipeistSwipe .swiper-button-next:after,
+.brandSwipe .swiper-button-prev:after {
+  font-size: 10px !important;
+}
